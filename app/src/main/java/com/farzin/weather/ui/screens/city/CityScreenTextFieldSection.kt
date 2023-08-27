@@ -31,7 +31,6 @@ import com.farzin.weather.R
 import com.farzin.weather.data.model.city.CityName
 import com.farzin.weather.ui.theme.placeholdercolor
 import com.farzin.weather.ui.theme.yellow
-import com.farzin.weather.util.Constants.CITY_NAME
 import com.farzin.weather.viewmodel.CityViewModel
 import com.farzin.weather.viewmodel.DataStoreViewModel
 

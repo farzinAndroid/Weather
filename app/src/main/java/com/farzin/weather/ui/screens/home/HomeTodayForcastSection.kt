@@ -26,7 +26,6 @@ import com.farzin.weather.data.model.home.ForeCastList
 import com.farzin.weather.ui.theme.darkText
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.util.DateHelper
-import com.farzin.weather.util.DigitHelper
 import com.farzin.weather.viewmodel.HomeViewModel
 import kotlinx.coroutines.flow.collectLatest
 

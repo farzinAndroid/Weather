@@ -28,7 +28,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
 import com.farzin.weather.R
-import com.farzin.weather.data.model.home.Clouds
 import com.farzin.weather.ui.theme.darkText
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.ui.theme.yellow

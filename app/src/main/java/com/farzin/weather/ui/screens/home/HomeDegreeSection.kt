@@ -6,7 +6,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
-import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
@@ -16,17 +15,13 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
-import coil.compose.AsyncImagePainter
 import coil.compose.rememberAsyncImagePainter
-import coil.size.Scale
 import com.farzin.weather.R
 import com.farzin.weather.ui.theme.darkText
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.ui.theme.yellow
-import com.farzin.weather.util.Constants
 import com.farzin.weather.util.Constants.METRIC
 import com.farzin.weather.util.Constants.UNITS
-import com.farzin.weather.util.DigitHelper
 import com.farzin.weather.util.IconHelper.iconHelper
 
 @Composable

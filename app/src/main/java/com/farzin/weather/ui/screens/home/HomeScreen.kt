@@ -14,7 +14,6 @@ import androidx.compose.material.pullrefresh.PullRefreshIndicator
 import androidx.compose.material.pullrefresh.pullRefresh
 import androidx.compose.material.pullrefresh.rememberPullRefreshState
 import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.collectAsState
@@ -32,7 +31,6 @@ import androidx.navigation.NavHostController
 import com.farzin.weather.data.internet.NetworkResult
 import com.farzin.weather.data.model.home.ForeCastList
 import com.farzin.weather.ui.components.AppConfig
-import com.farzin.weather.ui.components.ErrorAlertDialog
 import com.farzin.weather.ui.components.ErrorSection
 import com.farzin.weather.ui.components.LoadingSection
 import com.farzin.weather.ui.theme.onBoarding

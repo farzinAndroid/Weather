@@ -5,7 +5,6 @@ import com.farzin.weather.data.internet.NetworkResult
 import com.farzin.weather.data.internet.home.HomeApiInterface
 import com.farzin.weather.data.model.detail.AirPollution
 import com.farzin.weather.data.model.home.Forecast
-import com.farzin.weather.data.model.home.Weather
 import com.farzin.weather.data.model.home.WeatherData
 import javax.inject.Inject
 

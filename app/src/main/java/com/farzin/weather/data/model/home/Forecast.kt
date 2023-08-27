@@ -1,7 +1,5 @@
 package com.farzin.weather.data.model.home
 
-import com.google.gson.annotations.SerializedName
-
 data class Forecast(
     val city: City,
     val cnt: Int,

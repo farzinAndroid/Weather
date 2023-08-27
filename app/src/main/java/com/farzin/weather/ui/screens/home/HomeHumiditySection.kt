@@ -1,7 +1,6 @@
 package com.farzin.weather.ui.screens.home
 
 import androidx.compose.foundation.BorderStroke
-import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Row
@@ -18,7 +17,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
@@ -29,8 +27,6 @@ import com.farzin.weather.R
 import com.farzin.weather.ui.theme.darkText
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.ui.theme.yellow
-import com.farzin.weather.util.Constants
-import com.farzin.weather.util.DigitHelper
 
 
 @Composable

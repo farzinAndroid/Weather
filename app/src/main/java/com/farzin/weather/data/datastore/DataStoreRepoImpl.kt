@@ -9,7 +9,6 @@ import androidx.datastore.preferences.core.stringPreferencesKey
 import androidx.datastore.preferences.preferencesDataStore
 import com.farzin.weather.util.Constants.DATASTORE_NAME
 import kotlinx.coroutines.flow.first
-import java.lang.Exception
 import javax.inject.Inject
 
 

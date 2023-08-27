@@ -1,7 +1,6 @@
 package com.farzin.weather.ui.screens.home
 
 import androidx.compose.foundation.Image
-import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
@@ -17,7 +16,6 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -28,7 +26,6 @@ import com.farzin.weather.data.model.home.ForeCastList
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.ui.theme.yellow
 import com.farzin.weather.util.DateHelper
-import com.farzin.weather.util.DigitHelper
 import com.farzin.weather.util.IconHelper
 
 @Composable

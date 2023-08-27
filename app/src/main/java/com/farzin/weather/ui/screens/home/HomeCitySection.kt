@@ -18,7 +18,6 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.farzin.weather.R
 import com.farzin.weather.ui.theme.darkText
-import com.farzin.weather.ui.theme.yellow
 
 
 @Composable

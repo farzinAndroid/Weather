@@ -2,10 +2,7 @@ package com.farzin.weather.di
 
 import android.content.Context
 import androidx.room.Room
-import androidx.room.RoomDatabase
 import com.farzin.weather.data.database.WeatherDatabase
-import com.farzin.weather.data.datastore.DataStoreRepoImpl
-import com.farzin.weather.data.model.home.WeatherData
 import com.farzin.weather.util.Constants.DB_NAME
 import dagger.Module
 import dagger.Provides

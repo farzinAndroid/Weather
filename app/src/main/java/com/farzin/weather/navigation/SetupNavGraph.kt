@@ -1,20 +1,15 @@
 package com.farzin.weather.navigation
 
 import androidx.compose.runtime.Composable
-import androidx.navigation.NavArgument
-import androidx.navigation.NavController
-import androidx.navigation.NavGraph
 import androidx.navigation.NavHostController
 import androidx.navigation.NavType
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.navArgument
-import com.farzin.weather.ui.screens.city.City
 import com.farzin.weather.ui.screens.city.CityScreen
 import com.farzin.weather.ui.screens.detail.DetailScreen
 import com.farzin.weather.ui.screens.home.HomeScreen
 import com.farzin.weather.ui.screens.onboarding.OnBoardingScreen
-import com.farzin.weather.ui.screens.search.Search
 import com.farzin.weather.ui.screens.search.SearchScreen
 import com.farzin.weather.ui.screens.setting.SettingScreen
 

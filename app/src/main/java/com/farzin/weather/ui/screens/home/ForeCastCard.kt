@@ -3,7 +3,6 @@ package com.farzin.weather.ui.screens.home
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.wrapContentHeight
@@ -16,8 +15,6 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.layout.ModifierLocalBeyondBoundsLayout
-import androidx.compose.ui.modifier.modifierLocalMapOf
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
@@ -26,10 +23,8 @@ import coil.compose.rememberAsyncImagePainter
 import com.farzin.weather.R
 import com.farzin.weather.data.model.home.ForeCastList
 import com.farzin.weather.ui.theme.foreCastCard
-import com.farzin.weather.ui.theme.onBoarding
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.util.DateHelper
-import com.farzin.weather.util.DigitHelper
 import com.farzin.weather.util.IconHelper
 
 @Composable

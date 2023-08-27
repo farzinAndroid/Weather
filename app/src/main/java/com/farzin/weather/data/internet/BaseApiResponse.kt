@@ -1,6 +1,5 @@
 package com.farzin.weather.data.internet
 
-import com.farzin.weather.data.model.ResponseResult
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import retrofit2.Response

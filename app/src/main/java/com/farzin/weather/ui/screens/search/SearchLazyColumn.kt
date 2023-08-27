@@ -37,9 +37,6 @@ import androidx.navigation.NavController
 import com.farzin.weather.R
 import com.farzin.weather.data.internet.NetworkResult
 import com.farzin.weather.data.model.home.ForeCastList
-import com.farzin.weather.data.model.home.Forecast
-import com.farzin.weather.ui.components.ErrorAlertDialog
-import com.farzin.weather.ui.components.ErrorSection
 import com.farzin.weather.ui.components.LoadingSection
 import com.farzin.weather.ui.screens.home.FutureForeCastItem
 import com.farzin.weather.ui.theme.placeholdercolor

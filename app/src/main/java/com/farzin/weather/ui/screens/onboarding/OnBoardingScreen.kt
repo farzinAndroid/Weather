@@ -48,8 +48,8 @@ import com.farzin.weather.ui.theme.placeholdercolor
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.ui.theme.yellow
 import com.farzin.weather.util.Constants
-import com.farzin.weather.viewmodel.DataStoreViewModel
 import com.farzin.weather.viewmodel.CityViewModel
+import com.farzin.weather.viewmodel.DataStoreViewModel
 import com.google.accompanist.pager.ExperimentalPagerApi
 
 @OptIn(ExperimentalPagerApi::class, ExperimentalMaterial3Api::class)

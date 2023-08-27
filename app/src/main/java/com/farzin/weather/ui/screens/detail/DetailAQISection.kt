@@ -23,7 +23,6 @@ import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
-import androidx.datastore.preferences.core.stringSetPreferencesKey
 import com.farzin.weather.R
 import com.farzin.weather.ui.theme.darkText
 import com.farzin.weather.ui.theme.fair
@@ -32,8 +31,6 @@ import com.farzin.weather.ui.theme.moderate
 import com.farzin.weather.ui.theme.poor
 import com.farzin.weather.ui.theme.semidarkText
 import com.farzin.weather.ui.theme.verypoor
-import com.farzin.weather.ui.theme.yellow
-import com.farzin.weather.util.DigitHelper
 
 
 @Composable
