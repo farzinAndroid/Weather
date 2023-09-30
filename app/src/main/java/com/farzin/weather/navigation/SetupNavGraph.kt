@@ -39,7 +39,7 @@ fun SetupNavGraph(
 
 
         composable(route = Screens.Search.route) {
-            SearchScreen(navController=navController)
+            SearchScreen()
         }
 
 
